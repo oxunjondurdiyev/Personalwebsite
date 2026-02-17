@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "intro": "I'm a developer and writer",
+    "latestPosts": "Latest Posts",
+    "readMore": "Read More",
+    "viewAllPosts": "View All Posts"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Write about yourself here"
+  },
+  "blog": {
+    "title": "Blog",
+    "search": "Search...",
+    "noResults": "No results found",
+    "loadMore": "Load More",
+    "category": "Category",
+    "tags": "Tags",
+    "views": "Views",
+    "publishedOn": "Published on"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Your message has been sent!"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "posts": "Posts",
+    "categories": "Categories",
+    "tags": "Tags",
+    "users": "Users",
+    "newPost": "New Post",
+    "editPost": "Edit Post",
+    "logout": "Logout",
+    "login": "Login",
+    "username": "Username",
+    "password": "Password"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "back": "Back",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found"
+  }
+}

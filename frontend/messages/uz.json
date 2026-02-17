@@ -1,0 +1,61 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Men haqimda",
+    "blog": "Blog",
+    "contact": "Aloqa"
+  },
+  "home": {
+    "welcome": "Xush kelibsiz",
+    "intro": "Men dasturchi va yozuvchiman",
+    "latestPosts": "So'nggi maqolalar",
+    "readMore": "Batafsil",
+    "viewAllPosts": "Barcha maqolalarni ko'rish"
+  },
+  "about": {
+    "title": "Men haqimda",
+    "description": "Bu yerda o'zingiz haqingizda yozing"
+  },
+  "blog": {
+    "title": "Blog",
+    "search": "Qidirish...",
+    "noResults": "Natijalar topilmadi",
+    "loadMore": "Yana yuklash",
+    "category": "Kategoriya",
+    "tags": "Teglar",
+    "views": "Ko'rishlar",
+    "publishedOn": "Nashr qilingan"
+  },
+  "contact": {
+    "title": "Bog'lanish",
+    "name": "Ism",
+    "email": "Email",
+    "message": "Xabar",
+    "send": "Yuborish",
+    "success": "Xabaringiz yuborildi!"
+  },
+  "admin": {
+    "dashboard": "Boshqaruv paneli",
+    "posts": "Maqolalar",
+    "categories": "Kategoriyalar",
+    "tags": "Teglar",
+    "users": "Foydalanuvchilar",
+    "newPost": "Yangi maqola",
+    "editPost": "Maqolani tahrirlash",
+    "logout": "Chiqish",
+    "login": "Kirish",
+    "username": "Foydalanuvchi nomi",
+    "password": "Parol"
+  },
+  "common": {
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "create": "Yaratish",
+    "back": "Orqaga",
+    "loading": "Yuklanmoqda...",
+    "error": "Xatolik yuz berdi",
+    "notFound": "Sahifa topilmadi"
+  }
+}
