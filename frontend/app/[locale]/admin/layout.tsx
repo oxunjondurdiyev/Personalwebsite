@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import Cookies from 'js-cookie';
 import Link from 'next/link';
 import { LogOut, FileText, FolderOpen, Tag, Users } from 'lucide-react';
@@ -15,16 +15,26 @@ export default function AdminLayout({
   params: { locale: string };
 }) {
   const router = useRouter();
+  const pathname = usePathname();
   const [loading, setLoading] = useState(true);
 
+  // Check if we're on the login page
+  const isLoginPage = pathname.includes('/admin/login');
+
   useEffect(() => {
+    // Skip auth check on login page
+    if (isLoginPage) {
+      setLoading(false);
+      return;
+    }
+
     const token = Cookies.get('access_token');
     if (!token) {
       router.push(`/${locale}/admin/login`);
     } else {
       setLoading(false);
     }
-  }, [router, locale]);
+  }, [router, locale, isLoginPage]);
 
   const handleLogout = () => {
     auth.logout();
@@ -39,6 +49,12 @@ export default function AdminLayout({
     );
   }
 
+  // On login page, render children without sidebar
+  if (isLoginPage) {
+    return <>{children}</>;
+  }
+
+  // On other admin pages, render with sidebar
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       <div className="flex">
